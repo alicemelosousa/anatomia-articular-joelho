@@ -1,0 +1,99 @@
+<!DOCTYPE html>   
+<html lang="en">    
+<head>    
+  <meta charset="UTF-8" />    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+  <title>Avaliação básica por imagem das doenças do sistema musculoesquelético</title>    
+    <href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"    
+    rel="stylesheet"    
+  />    
+  <link rel="stylesheet" href="style/bootstrap.min.css" />    
+  <link rel="stylesheet" href="style/style.css" />    
+</head>   
+<body>    
+
+  <section class="accessibility-bar-wrapper">   
+    <div class="container">   
+      <div>   
+        <a    
+            href="#conteudo"    
+            class="d-inline-block"    
+            accesskey="1"   
+            title="Link para ir ao conteúdo"    
+            ><span class="numero-acessibilidade">1</span> Ir para o conteúdo </a    
+            >   
+        <a    
+            href="#footer"    
+            class="d-inline-block"    
+            accesskey="3"   
+            title="Ir para o rodapé"    
+            ><span class="numero-acessibilidade">2</span>Ir para o rodapé </a   
+        >   
+      </div>    
+      <div class="custom-control custom-switch" style="display: flex; align-items: baseline;">    
+          <input type="checkbox" class="custom-control-input" id="darkSwitch">    
+          <label class="custom-control-label" for="darkSwitch">Alto Contraste</label>   
+      </div>    
+    </div>    
+  </section>  
+
+
+  <header class="header">   
+    <div class="container">   
+      <h1>AVALIAÇÃO BÁSICA POR IMAGEM DAS DOENÇAS DO SISTEMA MUSCULOESQUELÉTICO</h1>    
+    </div>    
+  </header>   
+
+
+<section id="conteudo" class="container">   
+
+  <center>
+  
+   <h2> Exemplo de anatomia articular - Joelho</h2>
+   <h4>Passe o mouse para visualizar os detalhes</h4>
+
+
+  <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+    <img id="img1" src = "images/1.jpeg">
+    
+    </div>   
+
+      <script>        
+      function mOver(obj)       
+      {       
+      obj.innerHTML="<img id='img2' src='images/2.jpeg'>"        
+      }       
+              
+      function mOut(obj)        
+      {       
+      obj.innerHTML="<img id='img1' src='images/1.jpeg'>"        
+      }     
+     
+      </script>  
+      </center>   
+      <h5><b>Fonte:</b> Imagem própria</h5>   
+
+<p>
+<p>
+
+
+
+
+</section>    
+<span class="line"></span>    
+<footer id="footer" class="container">    
+  <img src="logos/logo-lais.png" alt="LAIS">    
+  <img src="logos/logo-sedis.png" alt="SEDIS">    
+  <img id="ufrn" src="logos/ufrn.png" alt="UFRN">   
+
+
+</footer>   
+
+
+  <script src="scripts/jquery.min.js"></script>   
+  <script src="scripts/popper.min.js"></script>   
+  <script src="scripts/bootstrap.min.js"></script>    
+  <script src="scripts/dark-mode-switch.min.js"></script>   
+  <script src="scripts/main.js"></script>   
+</body>   
+</html>   
