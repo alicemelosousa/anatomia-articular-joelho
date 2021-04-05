@@ -1,7 +1,8 @@
 body {
-  font-family: "open-sans", sans-serif;
+  font-family: "Impact",  sans-serif;
   font-size: 16px;
   color: #333333;
+  align-items: center;
 }
 
 p {
@@ -18,6 +19,8 @@ p {
   font-size: 0.7em;
 }
 .accessibility-bar-wrapper .container {
+  font-family: "open-sans",  sans-serif ;
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -51,6 +54,7 @@ p {
 }
 [data-theme=dark] .accessibility-bar-wrapper a {
   color: #eee !important;
+  font-family: "open-sans",  sans-serif ;
 }
 [data-theme=dark] .numero-acessibilidade {
   color: #eee !important;
@@ -72,25 +76,26 @@ p {
 
 }
 .header h1 {
+  
   color: #528cff;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
   font-size: 1.5em;
 }
 
 h2 {
   color: #88afff;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
   font-size: 1.5em;
 }
 
 h4 {
-  font-family: "open-sans", sans-serif;
+  font-weight: normal;
   font-size: 14px;
   color: #9c9c9c;
 }
 
 h5 {
-  font-family: "open-sans", sans-serif;
+  font-weight: normal;
   font-size: 14px;
   color: #9c9c9c;
   margin-left: auto;
